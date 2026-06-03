@@ -13,10 +13,12 @@ export DESKTOP=/usr/share/applications/claws-mail.desktop
 
 # Deploy the application, its plugins, web extensions and all their dependencies
 quick-sharun \
-	/usr/bin/claws-mail \
-	/usr/lib/claws-mail \
-	/usr/bin/perl       \
-	/usr/lib/perl5      \
+	/usr/bin/claws-mail  \
+	/usr/lib/claws-mail  \
+	/usr/bin/perl        \
+	/usr/lib/perl5       \
+	/usr/lib/libldap.so* \
+	/usr/lib/liblber.so* \
 	/usr/lib/libwebkit2gtk-*.so*
 
 # Turn AppDir into AppImage
