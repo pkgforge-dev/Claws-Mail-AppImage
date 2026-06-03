@@ -1,0 +1,5 @@
+for d in "$APPDIR"/share/perl5/* "$APPDIR"/shared/lib/perl5/*/*; do
+	PERLLIB=$d:$PERLLIB
+done
+
+export PERLLIB
