@@ -11,6 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/128x128/apps/claws-mail.png
 export DESKTOP=/usr/share/applications/claws-mail.desktop
 export STRACE_TIME=2
+export PATH_MAPPING_HARDCODED=fancy.so
 
 # Deploy the application, its plugins, web extensions and all their dependencies
 quick-sharun \
