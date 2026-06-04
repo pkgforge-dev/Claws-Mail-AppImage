@@ -15,6 +15,7 @@ pacman -Syu --noconfirm \
 	libcanberra  \
 	libical      \
 	libnotify    \
+	libytnef     \
 	perl         \
 	poppler-glib \
 	spamassassin \

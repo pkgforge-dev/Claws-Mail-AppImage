@@ -15,12 +15,13 @@ export PATH_MAPPING_HARDCODED=fancy.so
 
 # Deploy the application, its plugins, web extensions and all their dependencies
 quick-sharun \
-	/usr/bin/claws-mail  \
-	/usr/lib/claws-mail  \
-	/usr/bin/perl        \
-	/usr/lib/perl5       \
-	/usr/lib/libldap.so* \
-	/usr/lib/liblber.so* \
+	/usr/bin/claws-mail     \
+	/usr/lib/claws-mail     \
+	/usr/bin/perl           \
+	/usr/lib/perl5          \
+	/usr/lib/libldap.so*    \
+	/usr/lib/liblber.so*    \
+	/usr/lib/libytnef.so*   \
 	/usr/lib/libwebkit2gtk-*.so*
 
 # Turn AppDir into AppImage
