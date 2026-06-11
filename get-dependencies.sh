@@ -23,7 +23,7 @@ pacman -Syu --noconfirm \
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
+get-debloated-pkgs --add-common --prefer-nano webkit2gtk-4.1-mini
 
 # if you also have to make nightly releases check for DEVEL_RELEASE = 1
 #
