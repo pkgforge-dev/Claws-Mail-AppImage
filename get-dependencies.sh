@@ -7,18 +7,23 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-	bogofilter   \
-	claws-mail   \
-	ghostscript  \
-	gumbo-parser \
-	libarchive   \
-	libcanberra  \
-	libical      \
-	libnotify    \
-	libytnef     \
-	perl         \
-	poppler-glib \
-	spamassassin \
+	bogofilter      \
+	claws-mail      \
+	ghostscript     \
+	gumbo-parser    \
+	hunspell-de     \
+	hunspell-en_us  \
+	hunspell-es_any \
+	hunspell-fr     \
+	hunspell-ru     \
+	libarchive      \
+	libcanberra     \
+	libical         \
+	libnotify       \
+	libytnef        \
+	perl            \
+	poppler-glib    \
+	spamassassin    \
 	webkit2gtk-4.1
 
 echo "Installing debloated packages..."
